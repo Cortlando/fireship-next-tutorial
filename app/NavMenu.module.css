@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: aqua;
+    color:#fff;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.links li {
+    align-items: center;
+    padding: 0.25rem;
+    display: flex;
+}
